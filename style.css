@@ -1,0 +1,59 @@
+body {
+  background-color: #f7f3ee;
+}
+
+body,
+header,
+h1 {
+  margin: 0;
+}
+#head {
+  text-align: center;
+  background-color: #eb5e28;
+  height: 75px;
+}
+#nav1 {
+  color: black;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  padding: 8px;
+  margin: 4px;
+}
+a:hover {
+  background-color: black;
+  color: #eb5e28;
+  border-radius: 60%;
+}
+
+#h11 {
+  margin-bottom: 5px;
+}
+
+#plc {
+  width: 200px;
+  float: left;
+  margin-right: 10px;
+}
+#txt {
+  float: left;
+  width: calc(100% - 200px - 10px);
+}
+
+main {
+  margin-bottom: 250px;
+}
+
+form {
+  text-align: center;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
